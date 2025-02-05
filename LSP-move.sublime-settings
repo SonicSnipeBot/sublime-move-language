@@ -1,0 +1,10 @@
+{
+    "clients": {
+        "move-analyzer": {
+            "command": ["move-analyzer"],
+            "scopes": ["source.move"],
+            "syntaxes": ["Packages/Move/Move.sublime-syntax"],
+            "languageId": "move"
+        }
+    }
+}

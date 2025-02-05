@@ -672,3 +672,21 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+
+---
+
+### **4. package-metadata.json** *(optional but recommended)*  
+This metadata file helps Package Control provide details about your package.
+
+**File Path:** `package-metadata.json`
+
+```json
+{
+    "name": "Move Language Package",
+    "description": "Provides syntax highlighting and LSP support for the Move programming language.",
+    "author": "Your Name",
+    "homepage": "https://github.com/yourusername/sublime-move-language",
+    "issues": "https://github.com/yourusername/sublime-move-language/issues"
+}
+

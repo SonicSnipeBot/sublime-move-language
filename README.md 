@@ -1,0 +1,13 @@
+# Move Language Package for Sublime Text
+
+This package provides syntax highlighting and LSP support for the Move programming language in Sublime Text.
+
+## Features
+- Syntax highlighting for `.move` files
+- LSP support using `move-analyzer`
+- Auto-completion, diagnostics, and go-to-definition
+
+## Installation
+1. Install `move-analyzer`:
+   ```bash
+   cargo install --git https://github.com/move-language/move move-analyzer

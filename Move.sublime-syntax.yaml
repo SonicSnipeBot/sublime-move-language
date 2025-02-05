@@ -1,0 +1,16 @@
+%YAML 1.2
+---
+name: Move
+file_extensions: [move]
+scope: source.move
+
+contexts:
+  main:
+    - match: \b(module|public|fun|struct|let|if|else|return|move|copy)\b
+      scope: keyword.control.move
+    - match: "//.*$"
+      scope: comment.line.double-slash.move
+    - match: '"([^"\\]|\\.)*"'
+      scope: string.quoted.double.move
+    - match: \b\d+\b
+      scope: constant.numeric.move
